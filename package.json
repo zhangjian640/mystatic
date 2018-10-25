@@ -4,7 +4,7 @@
   "description": "NodeJs Static Web server",
   "main": "src/app.js",
   "bin": {
-    "mystatic": "bin/mystatic"
+    "my-static": "bin/my-static"
   },
   "scripts": {
     "lint": "eslint .",
