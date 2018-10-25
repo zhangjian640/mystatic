@@ -1,5 +1,5 @@
 {
-  "name": "mystatic",
+  "name": "my-static",
   "version": "0.1.0",
   "description": "NodeJs Static Web server",
   "main": "src/app.js",
