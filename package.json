@@ -1,0 +1,39 @@
+{
+  "name": "mystatic",
+  "version": "0.1.0",
+  "description": "NodeJs Static Web server",
+  "main": "src/app.js",
+  "bin": {
+    "mystatic": "bin/mystatic"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangjian640/mystatic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjian640/mystatic/issues"
+  },
+  "homepage": "https://github.com/zhangjian640/mystatic#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "yargs": "^12.0.2"
+  }
+}
