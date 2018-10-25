@@ -1,10 +1,10 @@
 {
-  "name": "my-static",
+  "name": "my-static-server",
   "version": "0.1.0",
   "description": "NodeJs Static Web server",
   "main": "src/app.js",
   "bin": {
-    "my-static": "bin/my-static"
+    "my-static-server": "bin/my-static-server"
   },
   "scripts": {
     "lint": "eslint .",
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/zhangjian640/mystatic.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "zhangjian640",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhangjian640/mystatic/issues"
